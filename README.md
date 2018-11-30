@@ -12,7 +12,3 @@ Javascript anime.js ile inşa edilmiş dairesel animasyon efekti.
 
 ### Projenin aslı COIDEA WEBSİTE reposundan alınmıştır.
 [COIDEA WEBSİTE](https://github.com/COIDEAwebsite/circular-slider-with-anime-js)
-
-### Projeyi Görüntüle
-
-[Circular-slider](file:///C:/Users/ersoy/Downloads/Circular-slider-with-anime_js-master/Circular-slider-with-anime_js-master/index.html)
