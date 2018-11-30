@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Circular slider with anime.js - Revahend</title>
+    <meta
+      name="description"
+      content="The circular carousel/slider was built to provide web developers creative alternative to all those standard carousels/sliders. It was built with javascript animation engine anime.js."
+    />
+    <meta
+      name="keywords"
+      content="fullscreen, circular, slider, bootstrap, javascript, html5, css3, anime.js, playground"
+    />
+    <meta name="author" content="Adem Ersoy - Revahend" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="assets/css/base.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Didact+Gothic"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- COIDEA:demo START -->
+    <section class="page-wrapper" id="coidea">
+      <div class="slider">
+        <ul class="slider-list">
+          <li class="slider-list__item slider-list__item_active mb-5">
+            <span class="back__element">
+              <img src="assets/img/back_apple_002.png" alt="Responsive image" />
+            </span>
+            <span class="main__element">
+              <img
+                src="assets/img/bottle_apple_002.png"
+                alt="Responsive image"
+              />
+            </span>
+            <span class="front__element">
+              <img
+                src="assets/img/front_apple_002.png"
+                alt="Responsive image"
+              />
+            </span>
+            <span class="title__element">
+              <span class="title">apple</span>
+            </span>
+            <span class="more__element">
+              <span class="content">
+                <span class="headline">apple</span>
+                <span class="excerpt"
+                  >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Illo ratione nisi perferendis? Nemo in accusamus cupiditate
+                  officiis.</span
+                >
+                <span class="link">
+                  <div class="fill"></div>
+                  <a href="#">47$</a>
+                </span>
+              </span>
+            </span>
+          </li>
+
+          <li class="slider-list__item mb-5">
+            <span class="back__element">
+              <img
+                src="assets/img/back_grapes_001.png"
+                alt="Responsive image"
+              />
+            </span>
+            <span class="main__element">
+              <img
+                src="assets/img/bottle_grapes_001.png"
+                alt="Responsive image"
+              />
+            </span>
+            <span class="front__element">
+              <img
+                src="assets/img/front_grapes_001.png"
+                alt="Responsive image"
+              />
+            </span>
+            <span class="title__element">
+              <span class="title">grapes</span>
+            </span>
+            <span class="more__element">
+              <span class="content">
+                <span class="headline">grapes</span>
+                <span class="excerpt"
+                  >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Illo ratione nisi perferendis? Nemo in accusamus cupiditate
+                  officiis.</span
+                >
+                <span class="link">
+                  <div class="fill fill-dark"></div>
+                  <a href="#">47$</a>
+                </span>
+              </span>
+            </span>
+          </li>
+
+          <li class="slider-list__item mt-5">
+            <span class="back__element mb-5">
+              <img
+                src="assets/img/back_strawberry_003.png"
+                alt="Responsive image"
+              />
+            </span>
+            <span class="main__element mb-5 mt5">
+              <img
+                src="assets/img/bottle_strawberry_003.png"
+                alt="Responsive image"
+              />
+            </span>
+            <span class="front__element mb-5 mt-5">
+              <img
+                src="assets/img/front_strawberry_003.png"
+                alt="Responsive image"
+              />
+            </span>
+            <span class="title__element">
+              <span class="title">strawberry</span>
+            </span>
+            <span class="more__element">
+              <span class="content">
+                <span class="headline">strawberry</span>
+                <span class="excerpt"
+                  >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Illo ratione nisi perferendis? Nemo in accusamus cupiditate
+                  officiis.</span
+                >
+                <span class="link">
+                  <div class="fill"></div>
+                  <a href="#">47$</a>
+                </span>
+              </span>
+            </span>
+          </li>
+        </ul>
+
+        <div class="slider__nav-bar">
+          <a class="nav-control"></a> <a class="nav-control"></a>
+          <a class="nav-control"></a>
+        </div>
+
+        <div class="slider__controls">
+          <a class=" slider__arrow_prev"></a>
+          <a id="linkid" class="slider__arrow_next"></a>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+
+    <script src="assets/js/demo.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
